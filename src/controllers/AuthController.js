@@ -15,7 +15,7 @@ exports.verify = async (req, res) => {
     res.status(200).json(respond)
 }
 
-exports.resend_verification_code = async (req, res) => {
-    const respond = await AuthServices.resend_verification_code(req.user)
+exports.resend = async (req, res) => {
+    const respond = await AuthServices.resend(req.user)
     res.status(200).json(respond)
 }

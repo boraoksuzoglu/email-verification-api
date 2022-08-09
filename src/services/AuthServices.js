@@ -58,7 +58,7 @@ exports.verify = async (query) => {
 
 }
 
-exports.resend_verification_code = async (user) => {
+exports.resend = async (user) => {
 
     sendMail({
         to: user.email, 
