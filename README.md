@@ -4,6 +4,17 @@ An email verifier API with express and mongoose.
 
 ---
 
+## Routes
+
+| Path | Method | Description | Authorization required |
+| ----------- | ----------- | ----------- | ----------- |
+| /register | POST | Register | false
+| /login | POST | Login | false
+| /verify | GET | Verify email | false
+| /resend | GET | Resend email verification code | true
+
+---
+
 ## Development
 ### Install Repository
 ```git
@@ -44,16 +55,7 @@ npm run dev
 Your project is running on http://localhost:3000.
 ```
 ---
-## Routes
 
-| Path | Method | Description | Authorization required |
-| ----------- | ----------- | ----------- | ----------- |
-| /register | POST | Register | false
-| /login | POST | Login | false
-| /verify | GET | Verify email | false
-| /resend | GET | Resend email verification code | true
-
----
 ## Developer Notes
 - These codes are intended to help during the development stage.
 In the production, do not use. 
