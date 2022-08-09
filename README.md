@@ -41,7 +41,7 @@ npm run dev
 
 ### Finish
 ```
-Your project is running on https://localhost:3000.
+Your project is running on http://localhost:3000.
 ```
 ---
 ## Routes
