@@ -55,6 +55,10 @@ npm run dev
 Your project is running on http://localhost:3000.
 ```
 ---
+## Images
+![screenshot](./.github/screenshot.png)
+
+---
 
 ## Developer Notes
 - These codes are intended to help during the development stage.
