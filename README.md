@@ -20,7 +20,7 @@ An email verification API example with express and mongoose.
 ## Development
 ### Install Repository
 ```git
-git clone https://github.com/boraoksuzoglu/email-verifier
+git clone https://github.com/boraoksuzoglu/email-verification-api
 ```
 
 ### Setup
