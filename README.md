@@ -2,6 +2,8 @@
  
 An email verification API example with express and mongoose.
 
+![screenshot](./.github/screenshot.png)
+
 ---
 
 ## Routes
@@ -54,9 +56,6 @@ npm run dev
 ```
 Your project is running on http://localhost:3000.
 ```
----
-## Images
-![screenshot](./.github/screenshot.png)
 
 ---
 
