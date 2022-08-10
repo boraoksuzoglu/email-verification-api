@@ -1,6 +1,6 @@
 # email-verifier
  
-An email verifier API with express and mongoose.
+An email verification API example with express and mongoose.
 
 ---
 
