@@ -1,25 +1,33 @@
 {
-  "name": "email-verification-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/server.js",
-  "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-  },
-  "author": "boraoksuzoglu",
-  "license": "MIT",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.20.0",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-async-errors": "^3.1.1",
-    "http": "^0.0.1-security",
-    "mongoose": "^6.5.1",
-    "nodemailer": "^6.7.7",
-    "nodemon": "^2.0.19",
-    "short-unique-id": "^4.4.4",
-    "util": "^0.12.4"
-  }
+	"name": "email-verification-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/server.js",
+	"scripts": {
+		"dev": "nodemon src/server.js",
+		"start": "node src/server.js",
+		"lint": "eslint ./src --ext .js"
+	},
+	"author": "boraoksuzoglu",
+	"license": "MIT",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"body-parser": "^1.20.0",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-async-errors": "^3.1.1",
+		"http": "^0.0.1-security",
+		"mongoose": "^6.5.1",
+		"nodemailer": "^6.7.7",
+		"short-unique-id": "^4.4.4",
+		"util": "^0.12.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19",
+		"eslint": "^8.22.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-jest": "^26.8.4",
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "^2.7.1"
+	}
 }
